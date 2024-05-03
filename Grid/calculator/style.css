@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+}
+
+.container {
+  max-width: 100%;
+  height: 100vh;
+  border: 2px solid red;
+  display: grid;
+  grid-template-columns: repeat(
+    4,
+    100px
+  ); /*  to use justfy content property we have keep space repeat(4,100px)*/
+  grid-template-rows: auto;
+  /* margin: 140px auto; */
+  justify-content: center;
+  align-content: center;
+}
+.box {
+  border: 2px solid black;
+  text-align: center;
+  padding: 15px 0px;
+  /* font-weight: bold; */
+  font-size: 1.5rem;
+}
+
+#box1 {
+  grid-column: 1/5;
+  background-color: black;
+  color: grey;
+  text-align: end;
+}
+
+#box2 {
+  grid-area: 2/1/3/3;
+}
+
+.yellow {
+  background-color: rgb(244, 170, 34);
+}
+
+#box17 {
+  grid-column: 1/4;
+}

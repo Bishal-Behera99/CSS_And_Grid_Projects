@@ -1,0 +1,80 @@
+h1 {
+  background-color: rgba(163, 174, 211, 0.285);
+  color: rgb(116, 116, 31);
+  text-align: center;
+  padding: 40px;
+  width: 50%;
+  margin-inline: auto;
+}
+body {
+  background-color: bisque;
+}
+
+.container {
+  width: 80%; /*80% in terms width of the body*/
+  /* border: 2px solid red; */
+  margin-inline: auto;
+  /* width: 50%; */
+  background-color: rgba(137, 43, 226, 0.097);
+  /* position: relative; */
+}
+.logo {
+}
+.text-box {
+  width: 94%;
+  height: 80%;
+  background-color: azure;
+  padding: 40px;
+  margin-inline: auto;
+  border-radius: 10px;
+}
+.samurai {
+  width: 300px;
+
+  /* margin-inline: auto; 
+  border: 2px solid red; */
+  /* float: left; */
+  float: left;
+}
+.bottom-img {
+  width: 300px;
+  float: left;
+}
+
+.top-para {
+  clear: left;
+}
+.bottom-para {
+  clear: left;
+}
+
+/* Overlow Properties */
+.text-wrapper {
+  width: 300px;
+  height: 200px;
+  border: 2px solid red;
+  overflow: auto;
+}
+/* Position properties */
+/* .logo{
+  position: relative;
+  top: 50px; */
+/* top: -50px; */
+/* left: 50px; */
+/* }  */
+
+/* .logo {
+  position: absolute;
+  top: 50px;
+  left: 20px;
+} */
+.spacer{
+  height: 200vh;
+}
+
+/* Postion-fixed */
+.logo {
+  position: fixed;
+  top: 50px;
+  left: 20px;
+}
